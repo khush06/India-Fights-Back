@@ -1,0 +1,297 @@
+body{
+    font-family: 'Montserrat',sans-serif;
+}
+
+h1{
+    font-weight: 900;
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+.details{
+    color: #8f8f8f;
+    font-weight: 500;
+}
+
+/* title section */
+
+#title
+{
+    background-color: #00909e;
+    color: white;
+}
+
+.workers
+{
+    width: 20rem;
+    height: 20rem;
+    margin-left: 10%;
+}
+
+ 
+
+.container-fluid
+{
+    padding: 3% 10% 5%;
+}
+
+
+
+.title-heading-1{
+    margin-bottom: 0.6rem;
+    margin-top: 2rem;
+}
+
+.title-heading-2{
+        font-weight: 500;
+        font-size: 1.5rem;
+    }
+
+
+.navbar
+{
+    margin-bottom: 4rem;
+    padding: 0;
+    
+}
+
+.nav-item{
+    padding-left: 1.8rem;
+ 
+}
+
+
+
+.navbar-brand
+{
+    font-family: 'Ubuntu',sans-serif;
+    font-size: 2.2rem;
+    
+
+}
+
+.nav-link
+{
+    font-size: 1.2rem;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 100;
+}
+
+
+/* cases section */
+
+#cases
+{
+    text-align: center;
+    padding: 7% 10% ;
+    background-color: white;
+}
+
+.cases-heading
+{
+    font-weight: 700;
+    line-height: 1;
+}
+
+#state-names
+{
+    font-weight: 600;
+    line-height: 1.5;
+    color: #142850;
+    font-size: 1.8rem;
+    
+}
+
+.mybtn
+{
+    
+    height: 4rem;
+    width: 12rem;
+    margin: 1.2rem 0;
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: bold;
+    line-height: 0.5;
+    display: inline-block;
+}
+
+.buttons
+{
+    padding-top: 5%;
+    padding-left: 15%;
+    
+}
+
+.mapstyle
+{
+    padding-top: 7%;
+}
+
+
+/* updates section */
+
+#updates
+{
+    text-align: center;
+    background-color: #00909e;
+    
+  
+    
+    
+}
+
+#updates-heading
+{
+    color:#142850;
+    font-weight: 600;
+    padding-top: 3%;
+}
+
+a:visited
+{
+    color: #dae1e7;
+    text-decoration: none;
+}
+
+a:link
+{
+    color: #dae1e7;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: white;
+    text-decoration: none;
+}
+
+a:active
+{
+    color: #dae1e7;
+    text-decoration: none;
+}
+
+.carousel-item
+{
+    padding: 7% 15%;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 2;
+    height: 15rem;
+    color: white;
+    
+}
+
+/* prevention section */
+
+#prevention
+{
+    text-align: center;
+    background-color: #00909e;
+    color: #f9f9f9;
+    padding: 4% 7% 5%;
+}
+
+.icon
+{
+    color: #142850;
+    margin-bottom: 1rem;
+}
+
+
+
+.prevention-text
+{
+    font-weight: 700;
+    color: #dae1e7ea;
+}
+
+
+.prevention-text-2
+{
+    
+    color: #dae1e79c;
+}
+
+/* helpline section */
+
+#helpline
+{
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.helpline-heading
+{
+    color:#00909e;
+    background-color: white;
+    font-weight: 700;
+    font-size: 2.5rem;
+    padding-bottom: 2%;
+}
+
+input::placeholder
+{
+    font-size: 13px;
+}
+
+input
+{
+    display: inline-block;
+    width: 25%;
+    height: 2.3rem;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-right: 2%;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+#help
+{
+    padding: 5% 7%;
+    color:  #142850;
+}
+
+@media(max-width : 991.98px)
+{
+    .workers
+    {
+    width: 20rem;
+    height: 20rem;
+    margin-left: 0;
+    padding: 4% 0 0 0;
+    }
+
+    #title
+    {
+        text-align: center;
+    }
+
+    .title-heading-1{
+        margin-bottom: 0.6rem;
+        margin-top: 2rem;
+        font-size: 3.5rem;
+    }
+    
+    .title-heading-2{
+            font-weight: 500;
+            font-size: 2.5rem;
+    }
+
+    .buttons
+    {
+        padding-left: 0;
+    }
+        
+    
+    
+}
+
+    
