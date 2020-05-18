@@ -143,8 +143,9 @@ h1{
 #updates-heading
 {
     color:#142850;
-    font-weight: 600;
+    font-weight: 700;
     padding-top: 3%;
+    font-size: 3rem;
 }
 
 a:visited
@@ -289,8 +290,78 @@ input
     {
         padding-left: 0;
     }
+
+    .mybtn
+    {
+        width: 80%;
+        height: 15%;
+        font-size: 1.5rem;
+        line-height: 1;
+    }
+
+    .cases-heading
+    {
+        font-size: 4rem;
+    }
+
+    p
+    {
+        font-size: 1.5rem;
+
+    }
+
+    input::placeholder
+    {
+        font-size: 1.5rem;
+    }
         
+    #state-names
+    {
+        font-size: 3rem;
+    }
     
+    .carousel-item
+    {
+        font-size: 1.8rem;
+        height: 25rem;
+    }
+
+    input
+    {
+        
+        width: 40rem;
+        height: 4rem;
+    }
+
+    .prevention-text
+    {
+        font-size: 3rem;
+    }
+
+    .prevention-text-2
+    {
+        font-size:  2rem ;
+    }
+
+    .feature-box
+    {
+        padding:1.5% 0;
+    }
+
+    #helpline
+    {
+        padding: 7% 0;
+    }
+
+    #search
+    {
+        margin-top: 2rem;
+        width: 25rem;
+        height: 3.5rem;
+    
+    }
+
+
     
 }
 

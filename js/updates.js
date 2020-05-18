@@ -22,7 +22,7 @@ fetch(req)
                     }
                     else {
                         itemClass = "carousel-item";
-                        console.log("he");
+                        
                     }
                     
                    
