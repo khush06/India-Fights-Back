@@ -1,3 +1,8 @@
+html
+{
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: 'Montserrat',sans-serif;
 }
@@ -17,7 +22,8 @@ h1{
 
 #title
 {
-    background-color: #00909e;
+    
+    background: linear-gradient(#00909e,#04b4c4);
     color: white;
 }
 
@@ -164,6 +170,7 @@ a:hover
 {
     color: white;
     text-decoration: none;
+    transition: 0.3s;
 }
 
 a:active
@@ -188,7 +195,8 @@ a:active
 #prevention
 {
     text-align: center;
-    background-color: #00909e;
+    /* background-color: ; */
+    background: linear-gradient(#00909e,#04b4c4);
     color: #f9f9f9;
     padding: 4% 7% 5%;
 }
@@ -259,6 +267,19 @@ input
     padding: 5% 7%;
     color:  #142850;
 }
+
+path:hover
+{
+  
+  cursor: pointer;
+
+  stroke: #e81216;
+  stroke-width: 0.25rem;
+  transition: 0.3s;
+
+}
+
+
 
 @media(max-width : 991.98px)
 {
@@ -360,6 +381,8 @@ input
         height: 3.5rem;
     
     }
+
+   
 
 
     

@@ -1,5 +1,11 @@
-$(document).ready(function(){
 
+
+
+
+
+
+$(document).ready(function(){
+  $('.map').css({fill: "#c3e7eb"});
     fetch('https://api.rootnet.in/covid19-in/stats/latest')
             .then(response => response.json())
             .then(users => {
@@ -25,34 +31,34 @@ $(document).ready(function(){
                         console.log(out+activ);
                           if(activ >= 0 && activ <= 500)
                           {
-                            $(this).css({fill: "#ffe9ac"});
+                            $(this).css({fill: "#c3e7eb"});
                           }
                           if(activ >500 && activ <= 1000)
                           {
-                            $(this).css({fill: "#ffe190"});
+                            $(this).css({fill: "#87cbd1"});
                           }
                           if(activ > 1000 && activ <= 2500)
                           {
                             
-                            path.css({fill: "#fcc35a"});
+                            path.css({fill: "#0ebccc"});
                           }
                           if(activ > 2200 && activ <= 5000)
                           {
                             
-                            path.css({fill: "#ffd044"});
+                            path.css({fill: "#2e9ba5"});
                           }
                           if(activ > 5000 && activ <= 7000)
                           {
                             
-                            path.css({fill: "#ffc107"});
+                            path.css({fill: "#016d77"});
                           }
                           if(activ>7000)
                           {
                          
-                          path.css({fill: "#fc9014"});
+                          path.css({fill: "#015158"});
                           }
                         }
-                        
+                         
 
   
                          
@@ -64,7 +70,13 @@ $(document).ready(function(){
                   
                 });
             });
+
+
+           
+          
+
   
-             
-             
+          
+           
+            
   
