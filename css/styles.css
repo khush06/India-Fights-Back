@@ -388,4 +388,24 @@ path:hover
     
 }
 
+.container-fluid
+{
+    animation: transitionfull 1s;
+}
+
+@keyframes transitionfull
+{
+    from
+    {
+        opacity: 0;
+        
+    }
+
+    to
+    {
+        opacity: 1;
+      
+    }
+}
+
     
