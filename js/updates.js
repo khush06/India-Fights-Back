@@ -4,9 +4,10 @@ var url = 'https://newsapi.org/v2/top-headlines?' +
     'from=2020-05-16&' +
     'sortBy=popularity&' +
     'apiKey=078a7b5ea2714959a6da14ae1629c942';
-
-var req = new Request(url);
+    const proxy = "https://cors-anywhere.herokuapp.com/";
+var req = new Request(proxy + url);
 var response='';
+
 $(document).ready(function(){
 fetch(req)
     .then(response => response.json())  
